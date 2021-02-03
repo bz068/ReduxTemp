@@ -1,10 +1,6 @@
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -15,7 +11,7 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 30vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -26,6 +22,11 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.card {
+  border: 1px solid;
+  margin: 20px 25px;
 }
 
 @keyframes App-logo-spin {
